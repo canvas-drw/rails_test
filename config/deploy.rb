@@ -1,8 +1,8 @@
 # config valid only for Capistrano 3.1
 lock '3.2.0'
 
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'rails_test'
+set :repo_url, 'git@github.com:canvas-drw/rails_test.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
@@ -20,7 +20,7 @@ set :repo_url, 'git@example.com:me/my_repo.git'
 # set :log_level, :debug
 
 # Default value for :pty is false
-# set :pty, true
+set :pty, true
 
 # Default value for :linked_files is []
 # set :linked_files, %w{config/database.yml}
