@@ -1,6 +1,6 @@
 # Set the working application directory
 # working_directory "/path/to/your/app"
-working_directory "/home/vagrant/www/current/rails_test"
+working_directory "/home/vagrant/www/current/"
 
 # Unicorn PID file location
 # pid "/path/to/pids/unicorn.pid"
