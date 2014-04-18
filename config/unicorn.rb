@@ -13,8 +13,8 @@ stderr_path "/home/vagrant/www/current/log/unicorn.log"
 stdout_path "/home/vagrant/www/current/log/unicorn.log"
 
 # Unicorn socket
-listen "/tmp/unicorn.[app name].sock"
-listen "/tmp/unicorn.myapp.sock"
+listen "/home/vagrant/www/current/tmp/unicorn.rails_test.sock"
+listen "/home/vagrant/www/current/tmp/unicorn.rails_test.sock"
 
 # Number of processes
 # worker_processes 4
